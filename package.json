@@ -1,0 +1,23 @@
+{
+  "name": "jupysearch",
+  "version": "1.0.0",
+  "description": "Search and find Jupyter Notebooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yash101/Jupysearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yash101/Jupysearch/issues"
+  },
+  "homepage": "https://github.com/yash101/Jupysearch#readme",
+  "devDependencies": {
+    "bower": "^1.8.8",
+    "electron": "^10.1.1"
+  }
+}
