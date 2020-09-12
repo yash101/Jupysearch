@@ -13,8 +13,8 @@ div.spongebob {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 200px;
-    height: 143px;
+    width: 100px;
+    height: 71px;
 
     background-image: url('img/spongebob.png');
     background-position: center;
