@@ -8,7 +8,7 @@ if (!locked)
 
 let newWindow = function() {
     let w = new BrowserWindow({
-        width: 400,
+        width: 550,
         height: 600,
         alwaysOnTop: true,
         skipTaskbar: true,
