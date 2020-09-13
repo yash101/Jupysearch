@@ -12,7 +12,10 @@ let newWindow = function() {
         height: 600,
         alwaysOnTop: true,
         skipTaskbar: true,
-        frame: false
+        frame: false,
+        webPreferences: {
+            nodeIntegration: true
+        }
     });
 
     w.loadURL(url.format({

@@ -1,12 +1,15 @@
 body {
     background-color: rgba(255, 255, 255, 0.7);
-    -webkit-app-region: drag;
     display: block;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    padding-top: 16px;
+    padding-bottom: 87px;
+
+    box-sizing: border-box;
 }
 
 div.spongebob {
@@ -14,7 +17,7 @@ div.spongebob {
     bottom: 0;
     left: 0;
     width: 100px;
-    height: 71px;
+    height: 72px;
 
     background-image: url('img/spongebob.png');
     background-position: center;
@@ -22,3 +25,46 @@ div.spongebob {
     background-size: contain;
 }
 
+button.settings {
+    all: unset;
+
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 72px;
+    height: 72px;
+    
+    background-image: url('icons/settings-black-48dp.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    transition: transform 0.5s ease-in-out;
+}
+
+button.settings:hover,
+button.settings:active {
+    transform: rotate(720deg);
+}
+
+div.main-container-closed {
+    display: grid;
+    grid-template-columns: 100% auto;
+    grid-template-rows: auto;
+}
+
+div.main-container-opened {
+    display: grid;
+    grid-template-columns: 450px auto;
+    grid-template-rows: auto;
+}
+
+div.main-container-closed.preview-container {
+    display: none;
+}
+
+div.main-container-opened.preview-container {
+    display: block;
+}
