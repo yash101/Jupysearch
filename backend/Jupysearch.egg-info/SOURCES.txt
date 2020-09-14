@@ -1,0 +1,5 @@
+setup.py
+Jupysearch.egg-info/PKG-INFO
+Jupysearch.egg-info/SOURCES.txt
+Jupysearch.egg-info/dependency_links.txt
+Jupysearch.egg-info/top_level.txt
