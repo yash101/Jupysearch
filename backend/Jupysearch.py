@@ -9,7 +9,10 @@ def getBase():
 @app.route('/search/<q>')
 def doSearch(q):
     return {
-        []
+        [
+            {
+            }
+        ]
     }
 
 @app.route('/configuration', methods = ['GET'])
@@ -24,5 +27,5 @@ def doConfigure():
         []
     }
 
-if if __name__ == "__main__":
+if __name__ == "__main__":
     pass
